@@ -36,9 +36,9 @@ body:
       label: "Acceptance Criteria"
       description: Please enter the acceptance criteria for the user story
       placeholder: >
-        - [ ] Criteria 1: Describe the first acceptance criterion here.
-        - [ ] Criteria 2: Describe the second acceptance criterion here.
-        - [ ] Criteria 3: Describe additional criteria as needed.
+        1. [ ] Criteria 1: Describe the first acceptance criterion here.  
+        2. [ ] Criteria 2: Describe the second acceptance criterion here.  
+        3. [ ] Criteria 3: Describe additional criteria as needed.  
     validations:
       required: false
   - type: textarea
@@ -47,10 +47,10 @@ body:
       label: "Definition of Done"
       description: Please enter the definition of done for the user story
       placeholder: >
-        - [ ] All acceptance criteria are met.
-        - [ ] Code is reviewed and approved.
-        - [ ] Necessary tests are written and pass.
-        - [ ] Documentation is updated, if applicable.
-        - [ ] Feature is deployed to the [environment name].
+        1. [ ] All acceptance criteria are met.  
+        2. [ ] Code is reviewed and approved.  
+        3. [ ] Necessary tests are written and pass.  
+        4. [ ] Documentation is updated, if applicable.  
+        5. [ ] Feature is deployed to the [environment name].  
     validations:
       required: false
