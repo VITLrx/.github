@@ -1,0 +1,55 @@
+name: "User Story"
+description: Create a new ticket for a user story.
+title: "[USER STORY] - <title>"
+labels: [
+  "documentation"
+]
+body:
+  - type: textarea
+    id: role
+    attributes:
+      label: "Role"
+      description: Please enter the role of the user
+      placeholder: ex. As a user, I want to...
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: "Goal"
+      description: Please enter the goal of the user
+      placeholder: ex. As a user, I want to...
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Reason"
+      description: Please enter the reason for the user story
+      placeholder: ex. So that I can...
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: "Acceptance Criteria"
+      description: Please enter the acceptance criteria for the user story
+      placeholder: >
+        - [ ] Criteria 1: Describe the first acceptance criterion here.
+        - [ ] Criteria 2: Describe the second acceptance criterion here.
+        - [ ] Criteria 3: Describe additional criteria as needed.
+    validations:
+      required: false
+  - type: textarea
+    id: done
+    attributes:
+      label: "Definition of Done"
+      description: Please enter the definition of done for the user story
+      placeholder: >
+        - [ ] All acceptance criteria are met.
+        - [ ] Code is reviewed and approved.
+        - [ ] Necessary tests are written and pass.
+        - [ ] Documentation is updated, if applicable.
+        - [ ] Feature is deployed to the [environment name].
+    validations:
+      required: false
