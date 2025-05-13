@@ -4,13 +4,14 @@ title: "[USER STORY] - <title>"
 labels: [
   "documentation"
 ]
+type: User Story
 body:
-  - type: textarea
+  - type: input
     id: role
     attributes:
       label: "Role"
       description: Please enter the role of the user
-      placeholder: ex. As a user, I want to...
+      placeholder: ex. As a [user], I want to...
     validations:
       required: true
   - type: textarea
