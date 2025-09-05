@@ -1,0 +1,26 @@
+name: "Tech Debt"
+description: Create a new ticket to record technical debt.
+title: "[Tech Debt] - "
+labels: [
+  "tech debt"
+]
+type: Tech Debt
+body:
+  - type: input
+    id: code
+    attributes:
+      label: "Code Link"
+      description: |
+        Please provide the link to the code that needs to be addressed.
+        Click on the line number in Github on the left to highlight a specific line.
+        If you need to make it a range, add -L### to the end of the url, where L### is the end line number.
+        Note: you need to refresh the page when modifying the Line to Range to see the hilighted range.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes"
+      description: Please enter any notes.
+    validations:
+      required: false
